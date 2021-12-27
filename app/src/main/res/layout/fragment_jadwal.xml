@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".JadwalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+    android:id="@+id/jadwal_BP"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="40dp"
+    android:text="Bira-Pamatata"
+    android:textColor="@color/Yellow"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/trip1_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/jadwal_BP"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Trip Pertama"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip2_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip1_BP"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Trip Kedua"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip1_jam_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/jadwal_BP"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="09.30 WITA"
+        android:textColor="@color/Yellow"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip2_jam_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip1_jam_BP"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="15.30 WITA"
+        android:textColor="@color/Yellow"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/jadwal_PB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip2_BP"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Pamatata-Bira"
+        android:textColor="@color/Yellow"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip1_PB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/jadwal_PB"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Trip Pertama"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip2_PB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip1_PB"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Trip Kedua"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip1_jam_PB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/jadwal_PB"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="09.30 WITA"
+        android:textColor="@color/Yellow"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/trip2_jam_PB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip1_jam_PB"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="15.30 WITA"
+        android:textColor="@color/Yellow"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip2_PB"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Jadwal ini berlaku setiap hari. Akan ada pemberitahuan
+jika terjadi perubahan jadwal. "
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="16dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
