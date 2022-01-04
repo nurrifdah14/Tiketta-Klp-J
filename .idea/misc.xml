@@ -10,16 +10,26 @@
         <entry key="..\:/Tiketta/app/src/main/res/drawable/bg_home.xml" value="0.2203125" />
         <entry key="..\:/Tiketta/app/src/main/res/drawable/ic_rectangle_156.xml" value="0.2203125" />
         <entry key="..\:/Tiketta/app/src/main/res/drawable/ic_tb_harga.xml" value="0.2" />
+        <entry key="..\:/Tiketta/app/src/main/res/drawable/shape1.xml" value="0.2203125" />
+        <entry key="..\:/Tiketta/app/src/main/res/drawable/shape2.xml" value="0.2203125" />
+        <entry key="..\:/Tiketta/app/src/main/res/drawable/shape3.xml" value="0.1125" />
         <entry key="..\:/Tiketta/app/src/main/res/drawable/tabel_jadwal.xml" value="0.25" />
         <entry key="..\:/Tiketta/app/src/main/res/drawable/tabelhome.xml" value="0.25" />
         <entry key="..\:/Tiketta/app/src/main/res/drawable/tb_jadwal.xml" value="0.15092592592592594" />
         <entry key="..\:/Tiketta/app/src/main/res/layout/activity_base.xml" value="0.2" />
         <entry key="..\:/Tiketta/app/src/main/res/layout/activity_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/activity_menu.xml" value="0.22" />
         <entry key="..\:/Tiketta/app/src/main/res/layout/activity_sign_up.xml" value="0.1671195652173913" />
-        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_home.xml" value="0.22" />
-        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_jadwal.xml" value="0.2" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_harga_tiket.xml" value="0.22" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_jadwal.xml" value="0.25" />
         <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_login.xml" value="0.19384057971014493" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_profil.xml" value="0.22" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_setting.xml" value="0.17255434782608695" />
+        <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_setting2.xml" value="0.17255434782608695" />
         <entry key="..\:/Tiketta/app/src/main/res/layout/fragment_sign_up.xml" value="0.19384057971014493" />
+        <entry key="..\:/Tiketta/app/src/main/res/menu/button_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Tiketta/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2169230769230769" />
       </map>
     </option>
   </component>

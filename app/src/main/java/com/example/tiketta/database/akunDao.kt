@@ -12,4 +12,7 @@ interface akunDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(akun: Akun)
+
+    @Query("SELECT * FROM Akun WHERE Email=:email AND password=:password")
+    fun getUserByUsernamePass(email:String, password:String):Akun
 }

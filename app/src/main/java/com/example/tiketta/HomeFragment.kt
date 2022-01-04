@@ -9,6 +9,7 @@ import com.example.tiketta.databinding.FragmentHomeBinding
 import com.example.tiketta.databinding.FragmentLoginBinding
 
 class HomeFragment : Fragment() {
+
     private lateinit var _binding: FragmentHomeBinding
     private val binding get()=_binding
 

@@ -13,18 +13,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Stetho.initializeWithDefaults(this);
-        Stetho.initialize(
-            Stetho.newInitializerBuilder(this)
-                .enableDumpapp(
-                    Stetho.defaultDumperPluginsProvider(this))
-                .enableWebKitInspector(
-                    Stetho.defaultInspectorModulesProvider(this))
-                .build());
+//        Stetho.initializeWithDefaults(this);
+//        Stetho.initialize(
+//            Stetho.newInitializerBuilder(this)
+//                .enableDumpapp(
+//                    Stetho.defaultDumperPluginsProvider(this))
+//                .enableWebKitInspector(
+//                    Stetho.defaultInspectorModulesProvider(this))
+//                .build());
 
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, BaseActivity::class.java)
             startActivity(intent)
+            finish()
         }, 1500)
     }
 }

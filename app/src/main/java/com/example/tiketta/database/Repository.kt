@@ -8,6 +8,7 @@ import kotlinx.coroutines.launch
 
 class Repository(val appDatabase: AppDatabase) {
     private lateinit var mAkun: MutableLiveData<Akun>
+    private lateinit var mAkunLogin: MutableLiveData<Akun>
     fun addAkun(akun: Akun){
         CoroutineScope(Dispatchers.IO).launch {
             appDatabase.akunDao().insertAll(akun)
@@ -20,5 +21,17 @@ class Repository(val appDatabase: AppDatabase) {
             mAkun.postValue(akun)
         }
         return mAkun
+    }
+
+    fun login(email:String, password:String){
+        mAkunLogin = MutableLiveData()
+        CoroutineScope(Dispatchers.IO).launch {
+            val akun = appDatabase.akunDao().getUserByUsernamePass(email,password)
+            mAkunLogin.postValue(akun)
+        }
+    }
+
+    fun getLogin():LiveData<Akun>{
+        return mAkunLogin
     }
 }
